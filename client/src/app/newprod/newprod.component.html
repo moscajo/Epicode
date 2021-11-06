@@ -1,0 +1,28 @@
+<div class="container">
+    <form>
+        <div class="form my-3">
+          <div class="col">
+            <input type="text" [(ngModel)]="prods.name" class="form-control" name="name" placeholder="Name...">
+          </div>
+          <div class="col">
+            <input type="text" [(ngModel)]="prods.qt" class="form-control" name="qt" placeholder="qt...">
+          </div>
+          <div class="col">
+            <input type="text" [(ngModel)]="prods.descrizione" class="form-control" name="descrizione" placeholder="descrizione...">
+          </div>
+          <div class="col">
+            <input type="text" [(ngModel)]="prods.prezzo" class="form-control" name="prezzo" placeholder="prezzo...">
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-dark form-control" (click)="saveProd()">Save prods</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+
+    name
+qt
+descrizione
+prezzo
